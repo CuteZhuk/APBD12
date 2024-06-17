@@ -8,6 +8,6 @@ public class ProductsController : Controller
     [HttpGet("{id}")]
     public IActionResult GetProduct(int id)
     {
-        
+        return View();
     }
 }
