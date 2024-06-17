@@ -5,13 +5,15 @@
     <projectFile profileName="http">MvcMovie/MvcMovie.csproj</projectFile>
     <projectFile profileName="https">MvcMovie/MvcMovie.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0af23584-7501-4f79-b43b-5add04b28e40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/Controllers/HelloWorldController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/MvcMovie.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/MvcMovie.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MvcMovie/Views/HelloWorld/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Controllers/HelloWorldController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Controllers/HelloWorldController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718621267046</updated>
-      <workItem from="1718621268369" duration="315000" />
+      <workItem from="1718621268369" duration="624000" />
     </task>
     <servers />
   </component>
