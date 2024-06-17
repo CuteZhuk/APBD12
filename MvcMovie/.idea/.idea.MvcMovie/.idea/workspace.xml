@@ -10,10 +10,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af23584-7501-4f79-b43b-5add04b28e40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MvcMovie/Views/HelloWorld/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MvcMovie/Models/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/.idea/.idea.ASP_NET_MVC/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/.idea/.idea.ASP_NET_MVC/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/.idea/.idea.ASP_NET_MVC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/ASP_NET_MVC.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Controllers/HelloWorldController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Controllers/MoviesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Controllers/ProductsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Data/ASP_NET_MVCContext1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Migrations/InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Models/LoginViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Models/Movie.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Pages/HelloWorld/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Pages/HelloWorld/Welcome.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Pages/Products/GetProduct.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Movies/Create.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Movies/Delete.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Movies/Details.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Movies/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Movies/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ASP_NET_MVC/ASP_NET_MVC/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/Controllers/HelloWorldController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Controllers/HelloWorldController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/MvcMovie.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/MvcMovie.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +203,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718621267046</updated>
-      <workItem from="1718621268369" duration="624000" />
+      <workItem from="1718621268369" duration="3091000" />
     </task>
     <servers />
   </component>
