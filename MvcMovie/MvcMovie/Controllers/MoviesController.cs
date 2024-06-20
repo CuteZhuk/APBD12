@@ -80,18 +80,18 @@ namespace MvcMovie.Controllers
 // POST: Movies/Create
 // To protect from overposting attacks, enable the specific properties you want to bind to.
 // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(movie);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(movie);
-        }
+        // [HttpPost]
+        // [ValidateAntiForgeryToken]
+        // public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
+        // {
+        //     if (ModelState.IsValid)
+        //     {
+        //         _context.Add(movie);
+        //         await _context.SaveChangesAsync();
+        //         return RedirectToAction(nameof(Index));
+        //     }
+        //     return View(movie);
+        // }
 
         // POST: Movies/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -180,9 +180,12 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+// POST: Movies/Delete/6
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id, bool notUsed)
         {
+
             if (id == null)
             {
                 return NotFound();
@@ -198,7 +201,7 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
-        // POST: Movies/Delete/5
+// POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -212,6 +215,7 @@ namespace MvcMovie.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        
         
         [HttpPost]
         public string Index(string searchString, bool notUsed)
