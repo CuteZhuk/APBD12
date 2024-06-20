@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af23584-7501-4f79-b43b-5add04b28e40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MvcMovie/Models/MovieGenreViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MvcMovie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MvcMovie/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Controllers/MoviesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Models/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Models/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Models/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvcMovie/Views/Movies/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Views/Movies/Create.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MvcMovie/Views/Movies/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MvcMovie/Views/Movies/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718621267046</updated>
       <workItem from="1718621268369" duration="3682000" />
-      <workItem from="1718918523699" duration="3371000" />
+      <workItem from="1718918523699" duration="3673000" />
     </task>
     <servers />
   </component>
